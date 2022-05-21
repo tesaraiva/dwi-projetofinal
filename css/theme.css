@@ -1,0 +1,15 @@
+html[data-theme='light'] {
+  --primary: var(--primary-light);
+  --header-background: var(--light-opacity);
+  --background-opacity: var(--light-opacity);
+  --background: var(--light);
+  --foreground: var(--grey-90);
+}
+
+html[data-theme='dark'] {
+  --primary: var(--primary-dark);
+  --header-background: var(--dark-opacity);
+  --background-opacity: var(--dark-opacity);
+  --background: var(--dark);
+  --foreground: var(--light);
+}
